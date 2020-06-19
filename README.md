@@ -11,7 +11,7 @@ Before we dive in, let's take a moment to introduce two important terms used thr
  * **Modal**: A dialog appears over the existing user interface and blocks input to the elements beneath it, not allowing users to exit by tapping outside it. Modal dialogs effectively *focus* the users attention onto the dialog.
  * **Transient**: A temporary dialog that dismisses by itself without user intervention. For example, dialogs that automatically dismiss after a specified time span are transient.
 
-These terms, Modal and Transient, will be used many times in this article
+These terms, Modal and Transient, will be used many times in this article.
 
 Next, let's explore the six main dialogs kinds that we will explore in this guide:
 
@@ -32,7 +32,7 @@ Before we get started lets take a look at the packages we'll be using.
 While Xamarin.Forms has some basic dialogs built in, we'll  be using a couple of Nuget packages to access more options.
 
  * Acr.UserDialogs: A rich dialogs library for Xamarin.Forms. Acr.User dialogs is the de facto standard when working with dialogs in Xamarin.Forms.
-    * [Readme](https://github.com/aritchie/userdialogs);
+    * [Readme](https://github.com/aritchie/userdialogs)
  * Rg.Popups: Create fully customised popups and modal dialogs using Xamarin.Forms pages.
     * [Getting Start Guide](https://github.com/rotorgames/Rg.Plugins.Popup/wiki/Getting-started)
 
@@ -91,7 +91,7 @@ if (input.Ok)
 
 An **Action Sheet** is a modal dialog that presents the user with a selection of choices and, optionally, a cancel and destructive action.
 
-These are typically used when there are multiple actions a user might want to take. An example would be in an email application if a user clicks on an email they may want to Open, Forward, Reply, etc. In this case the destructive action would be **Delete** which would be displayed in red and separated from the rest of the list, hinting to the user that this action is serious and that they should think carefully. The **Cancel** option is also displayed differently to make it obvious that it is different to the other choices, this would generally
+These are typically used when there are multiple actions a user might want to take. An example would be in an email application if a user clicks on an email they may want to Open, Forward, Reply, etc. In this case the destructive action would be **Delete** which would be displayed in red and separated from the rest of the list, hinting to the user that this action is serious and that they should think carefully. The **Cancel** option is also displayed differently to make it obvious that it is different to the other choices, this would generally return the user to the state they were in and not make any changes.
 
 ![Using an action sheet in Xamarin.Forms](img/action-sheet.png)
 
@@ -247,21 +247,21 @@ As a quick guide for deciding which to pick, consider which situation best descr
 * Use a [Prompt](#prompts) dialog.
 
 **I want to display some text to a user but no interaction is needed**  
-* Use a [Toast](#toasts)
+* Use a [Toast](#toasts).
 
 **I want to ask the user a question with two options such as yes/no or confirm/cancel**
-* Use a [Confirm](#confirm) dialog
+* Use a [Confirm](#confirm) dialog.
 
 **I want to ask to present the user with multiple options**
-* Use an [Action Sheet](#action-sheets)
+* Use an [Action Sheet](#action-sheets).
 
 **I want to let the user know how much of a job has been completed**
-* Use a [Progress Indicator](#progress-indicator)
+* Use a [Progress Indicator](#progress-indicator).
 
 **I want complete control of the content and style of my dialog**
-* Use a [Custom Popup](#custom-popup)
+* Use a [Custom Popup](#custom-popup).
 
 
 These libraries are both free and Open Source but they rely on the support of their users. If you find UserDialogs to be useful in your project please sponsor Allan Ritchie through his [github sponsor page](https://github.com/sponsors/aritchie).
 
-If you like Rg.Popup visit the github repo for more information [https://github.com/rotorgames/Rg.Plugins.Popup](https://github.com/rotorgames/Rg.Plugins.Popup)
+If you like Rg.Popup visit the github repo for more information [https://github.com/rotorgames/Rg.Plugins.Popup](https://github.com/rotorgames/Rg.Plugins.Popup).
